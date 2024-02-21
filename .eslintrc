@@ -11,6 +11,7 @@
     "next/core-web-vitals"
   ],
   "plugins": ["prettier"],
+  "ignorePatterns": ["components/ui/*.tsx"],
   "rules": {
     "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
     "react/prop-types": "off",
